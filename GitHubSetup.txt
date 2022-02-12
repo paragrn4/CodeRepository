@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=0Icla6TVNNo
+tep 1: Download and install Git 
+
+Step 2 : Check if git is already installed
+    git --version
+
+Step 3 : Signup and create a account on GitHub
+  https://github.com/
+
+Step 4 : Add your github email and username to git
+  git config --global user.email "<YOUR_EMAIL>"
+  git config --global user.name "<YOUR USER NAME>"
+
+Step 5 : Add File/Folder
+
+ git init
+ git status 
+ touch MyFile.txt
+ git status 
+ git add MyFile.txt (Get Rid of person error with sudo access)
+ git commit -m "My First Commit"
+
+ git remote add origin <YOUR REPO LINK>
+ git push -u origin master
